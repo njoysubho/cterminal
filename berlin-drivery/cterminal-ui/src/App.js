@@ -4,6 +4,7 @@ import Microlink from '@microlink/react'
 import { ReactTinyLink} from 'react-tiny-link'
 import { Carousel,CarouselItem } from 'react-bootstrap';
 import logo from './logo.svg';
+import logoBlack from './images/logo_black_icon.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
@@ -38,7 +39,7 @@ function handleClick(event) {
 }
 
 function TabPanel(props) {
-  const { children, value, index, ...other } = props;
+  const { children, value , index, ...other } = props;
 
   return (
     <Typography
