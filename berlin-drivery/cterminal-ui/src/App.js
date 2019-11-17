@@ -98,14 +98,14 @@ export default function NewsAggregator() {
 
     return (
       <div>
-  <AppBar position="static">
-  <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-    <Tab label="Home"  {...a11yProps(0)} />
-    <Tab label="News" value="/news" />
-    <Tab label="Stats" {...a11yProps(2)} />
-    <Tab label="Wiki" {...a11yProps(3)} />
-  </Tabs>
-</AppBar>
+    <AppBar position="static">
+    <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+      <Tab label="Home"  {...a11yProps(0)} />
+      <Tab label="News" value="/news" />
+      <Tab label="Stats" {...a11yProps(2)} />
+      <Tab label="Wiki" {...a11yProps(3)} />
+    </Tabs>
+  </AppBar>
 
  <React.Fragment>
       <CssBaseline />
@@ -116,7 +116,7 @@ export default function NewsAggregator() {
             </div>
           </div>
 
-          <Typography component="div" style={{ backgroundColor: '#cfe8fc', width:' 30%', position: 'relative'}}>
+          <Typography component="div" style={{ backgroundColor: '#cfe8fc', width:' 30%', height: '100vh', overflow:'auto', position: 'relative'}}>
           <div className="card">
           <div className="card-body">
             {data.map((item) =>(
