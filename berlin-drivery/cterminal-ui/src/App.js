@@ -85,9 +85,9 @@ export default function NewsAggregator() {
   const [data, setData] = useState([]);
   /*state = {
     news: [],
-   
+
   }*/
- 
+
    // const classes= useStyles();
    useEffect(() => {
     fetch('http://localhost:3000/climate-feed')
@@ -109,26 +109,33 @@ export default function NewsAggregator() {
 
  <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="bg">
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh'
-        ,marginLeft:"70%",marginRight:"-2%",marginTop:"0%"}}> 
-        <div class="card">
-        <div class="card-body">
-          {data.map((item) =>(
-
-            <div className="card" >
-            <div className="card-body">
-              <h5 className="card-title">{item.title}</h5>
-              <h6 className="card-subtitle mb-2"><ReactTinyLink url={item.link} />
-              </h6>
+      <Container maxWidth="bg" style={{display: 'flex'}}>
+      <div className="home-content_wrap" style={{backgroundColor: 'black', heigt: '50vh', position: 'relative', top:'5%', width: '70%'}}>
+            <div className="card home-content-stats_wrap">
+              <img src={logo} />
             </div>
           </div>
-          ))} 
+
+          <Typography component="div" style={{ backgroundColor: '#cfe8fc', width:' 30%', position: 'relative'}}>
+          <div className="card">
+          <div className="card-body">
+            {data.map((item) =>(
+              <div className="card" >
+                <div className="card-body">
+                  <h5 className="card-title">
+                    {item.title}
+                  </h5>
+                  <h6 className="card-subtitle mb-2">
+                    <Microlink url={item.link} />
+                  </h6>
+                </div>
+            </div>
+            ))}
+          </div>
         </div>
-      </div>
-      </Typography>
+        </Typography>
       </Container>
-    </React.Fragment> 
+    </React.Fragment>
       </div>
     );
   /*componentDidMount() {
