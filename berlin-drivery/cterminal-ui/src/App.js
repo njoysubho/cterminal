@@ -125,18 +125,8 @@ export default function NewsAggregator() {
       <div className="home-content_wrap" style={{backgroundColor: 'black', heigt: '50vh', position: 'relative', top:'5%', width: '70%'}}>
             <div className="card home-content-stats_wrap">
               <div className="home-content-stats_item">
-              <img src={logo} />
-              <div className="">
-                <h3 className="card-title"> Headline about the statstic</h3>
-                <p className="card-subtitle">Subline text for statistics</p>
-              </div>
-              </div>
-              <div className="home-content-stats_item">
                 <img src={logo} />
-                <div className="">
-                  <h3 className="card-title"> Headline about the statstic</h3>
-                  <p className="card-subtitle">Subline text for statistics</p>
-                </div>
+
               </div>
             </div>
           </div>
