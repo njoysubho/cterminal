@@ -1,0 +1,477 @@
+[
+  {
+    "Source": 1,
+    "Term": "Adiabatic cooling/heating",
+    "Definition": "The rate of cooling (by expansion) as an air parcel rises. It is approximately 1 degrees Celsius per 100 metres. It is also the rate of heating (by compression) as an air parcel descends."
+  },
+  {
+    "Source": 1,
+    "Term": "Air mass",
+    "Definition": "A large body of air that has similar temperature, pressure and moisture properties."
+  },
+  {
+    "Source": 2,
+    "Term": "Air pressure",
+    "Definition": "the pressure exerted by the atmosphere"
+  },
+  {
+    "Source": 2,
+    "Term": "Altitude",
+    "Definition": "elevation above sea level or above the earth's surface"
+  },
+  {
+    "Source": 1,
+    "Term": "Anticyclone",
+    "Definition": "High pressure system in which air descends to give calm conditions and clear skies. Associated with summer heatwaves and winter frosts and fogs."
+  },
+  {
+    "Source": 2,
+    "Term": "Atmosphere",
+    "Definition": "the mass of air surrounding the Earth"
+  },
+  {
+    "Source": 1,
+    "Term": "Atmosphere",
+    "Definition": "The envelope of air surrounding the Earth and bound to it by gravity."
+  },
+  {
+    "Source": 1,
+    "Term": "Atmospheric pressure",
+    "Definition": "Pressure (force per unit area) exerted by the atmosphere on any surface by virtue of its weight."
+  },
+  {
+    "Source": 2,
+    "Term": "Axis",
+    "Definition": "the center around which something rotates"
+  },
+  {
+    "Source": 2,
+    "Term": "Barometer",
+    "Definition": "an instrument that measures atmospheric pressure"
+  },
+  {
+    "Source": 2,
+    "Term": "Biosphere",
+    "Definition": "the regions of the Earth where living organisms exist"
+  },
+  {
+    "Source": 2,
+    "Term": "Blizzard",
+    "Definition": "a storm with widespread snowfall accompanied by strong winds"
+  },
+  {
+    "Source": 2,
+    "Term": "Carbon dioxide",
+    "Definition": "a heavy odorless colorless gas formed during respiration and by the decomposition of organic substances; absorbed from the air by plants in photosynthesis"
+  },
+  {
+    "Source": 2,
+    "Term": "Celsius scale",
+    "Definition": "a temperature scale that defines the freezing point of water as 0 degrees and the boiling point of water as 100 degrees"
+  },
+  {
+    "Source": 2,
+    "Term": "Circulation",
+    "Definition": "free movement or passage"
+  },
+  {
+    "Source": 2,
+    "Term": "Cirrus",
+    "Definition": "a wispy white cloud at a high altitude"
+  },
+  {
+    "Source": 1,
+    "Term": "Clear sky",
+    "Definition": "Sky with a total cloud cover of less than one okta."
+  },
+  {
+    "Source": 2,
+    "Term": "Climate",
+    "Definition": "the weather in some location averaged over a period of time"
+  },
+  {
+    "Source": 2,
+    "Term": "Climate change",
+    "Definition": "a change in the world's climate"
+  },
+  {
+    "Source": 2,
+    "Term": "Cloud",
+    "Definition": "a visible mass of water or ice particles suspended at a considerable altitude"
+  },
+  {
+    "Source": 2,
+    "Term": "Cold front",
+    "Definition": "the front of an advancing mass of colder air"
+  },
+  {
+    "Source": 1,
+    "Term": "Cold front",
+    "Definition": "The \"leading edge\" of a relatively cold air mass."
+  },
+  {
+    "Source": 2,
+    "Term": "Condensation",
+    "Definition": "atmospheric moisture that has changed from a gas"
+  },
+  {
+    "Source": 1,
+    "Term": "Continental climate",
+    "Definition": "A climate with a high temperature range away from the influence of the sea. Winters will be colder and summers warmer compared to a coastal location for the same latitude."
+  },
+  {
+    "Source": 2,
+    "Term": "Cumulus",
+    "Definition": "a globular cloud"
+  },
+  {
+    "Source": 2,
+    "Term": "Current",
+    "Definition": "a steady flow of a fluid or gas"
+  },
+  {
+    "Source": 2,
+    "Term": "Cycle",
+    "Definition": "a periodically repeated sequence of events"
+  },
+  {
+    "Source": 2,
+    "Term": "Cyclone",
+    "Definition": "a violent storm in which air moves in a circular direction"
+  },
+  {
+    "Source": 1,
+    "Term": "Depression (cyclone, low, low-pressure area)",
+    "Definition": "Area in the atmosphere in which the pressures are lower than those of the surrounding region at the same level. In its development a depression usually has the following phases. A wave (young) depression forms and moves along a front. Mature depressions have well-developed warm sectors and both cold and warm fronts. An occluded depression is that within which there has developed an occluded front."
+  },
+  {
+    "Source": 2,
+    "Term": "Desertification",
+    "Definition": "a gradual transformation into arid, uninhabitable land"
+  },
+  {
+    "Source": 2,
+    "Term": "Dew point",
+    "Definition": "the temperature at which the water vapor in the air becomes saturated and condensation begins"
+  },
+  {
+    "Source": 2,
+    "Term": "Drought",
+    "Definition": "a shortage of rainfall"
+  },
+  {
+    "Source": 2,
+    "Term": "Elevation",
+    "Definition": "distance of something above a reference point"
+  },
+  {
+    "Source": 2,
+    "Term": "Equator",
+    "Definition": "an imaginary line around the Earth forming a great circle"
+  },
+  {
+    "Source": 1,
+    "Term": "Evaporation",
+    "Definition": "The physical process by which a liquid or solid substance is transformed to a gas; the opposite of condensation."
+  },
+  {
+    "Source": 2,
+    "Term": "Fahrenheit",
+    "Definition": "of or relating to a temperature scale proposed by the inventor of the mercury thermometer"
+  },
+  {
+    "Source": 2,
+    "Term": "Fahrenheit scale",
+    "Definition": "a temperature scale that defines the freezing point of water as 32 degrees and the boiling point of water a 212 degrees"
+  },
+  {
+    "Source": 2,
+    "Term": "Flash flood",
+    "Definition": "a sudden local flood of great volume and short duration"
+  },
+  {
+    "Source": 1,
+    "Term": "Fog",
+    "Definition": "Saturated air with visibility below one kilometre. Fog differs from cloud only in that the base of fog is at the Earth's surface while clouds are above the surface."
+  },
+  {
+    "Source": 2,
+    "Term": "Forecast",
+    "Definition": "a prediction about how something will develop"
+  },
+  {
+    "Source": 1,
+    "Term": "Front",
+    "Definition": "The meeting point between two air masses of different density. Since the temperature is the most important regulator of the atmosphere density, a front almost invariably separates air masses of different temperature. When warmer air replaces the colder, it is a warm front, and a front is a cold one when the opposite occurs."
+  },
+  {
+    "Source": 2,
+    "Term": "Glacier",
+    "Definition": "a slowly moving mass of ice"
+  },
+  {
+    "Source": 2,
+    "Term": "Global warming",
+    "Definition": "a rise in the average temperature of the earth's atmosphere"
+  },
+  {
+    "Source": 2,
+    "Term": "Greenhouse effect",
+    "Definition": "warming when solar radiation is trapped by the atmosphere"
+  },
+  {
+    "Source": 2,
+    "Term": "Hailstone",
+    "Definition": "small pellet of ice that falls during a hailstorm"
+  },
+  {
+    "Source": 2,
+    "Term": "Heat",
+    "Definition": "a form of energy transferred by a difference in temperature"
+  },
+  {
+    "Source": 2,
+    "Term": "Heat wave",
+    "Definition": "a wave of unusually hot weather"
+  },
+  {
+    "Source": 2,
+    "Term": "Humidity",
+    "Definition": "wetness in the atmosphere"
+  },
+  {
+    "Source": 1,
+    "Term": "Humidity",
+    "Definition": "Water vapor content of the air."
+  },
+  {
+    "Source": 2,
+    "Term": "Hurricane",
+    "Definition": "a severe tropical cyclone usually with heavy rains and winds"
+  },
+  {
+    "Source": 2,
+    "Term": "Ice age",
+    "Definition": "any period of time during which glaciers covered a large part of the earth's surface"
+  },
+  {
+    "Source": 1,
+    "Term": "Isobar",
+    "Definition": "A line of equal or constant pressure. Measured in millibars (mb)."
+  },
+  {
+    "Source": 2,
+    "Term": "Latitude",
+    "Definition": "an imaginary line around the Earth parallel to the equator"
+  },
+  {
+    "Source": 2,
+    "Term": "Lightning",
+    "Definition": "an electric discharge between clouds or from cloud to earth"
+  },
+  {
+    "Source": 2,
+    "Term": "Longitude",
+    "Definition": "the angular distance from the prime meridian at Greenwich"
+  },
+  {
+    "Source": 1,
+    "Term": "Maritime climate",
+    "Definition": "A climate with a low temperature range influenced by proximity to the sea. Winters will be warmer and summers cooler compared to a continental location for the same latitude."
+  },
+  {
+    "Source": 2,
+    "Term": "Meteorologist",
+    "Definition": "a specialist who studies processes in the earth's atmosphere that cause weather conditions"
+  },
+  {
+    "Source": 2,
+    "Term": "Meteorology",
+    "Definition": "the earth science dealing with phenomena of the atmosphere"
+  },
+  {
+    "Source": 2,
+    "Term": "Monsoon",
+    "Definition": "rainy season in southern Asia"
+  },
+  {
+    "Source": 1,
+    "Term": "Occluded front",
+    "Definition": "A front that is formed as a cold front overtakes a warm front and lifts the warm air completely off the ground."
+  },
+  {
+    "Source": 1,
+    "Term": "Okta",
+    "Definition": "A measure of cloud cover (in fractions of eight) on a synoptic chart."
+  },
+  {
+    "Source": 2,
+    "Term": "Ozone layer",
+    "Definition": "a layer in the stratosphere (at approximately 20 miles) that contains a concentration of ozone sufficient to block most ultraviolet radiation from the sun"
+  },
+  {
+    "Source": 2,
+    "Term": "Polar",
+    "Definition": "located at or coming from the earth's extremities"
+  },
+  {
+    "Source": 1,
+    "Term": "Precipitation",
+    "Definition": "Any of all of the forms of water particles, whether liquid or solid, that fall from the atmosphere and reach the ground. The forms of precipitation are: rain, drizzle, snow, snow grains, snow pellets, diamond dust, hail, and ice pellets."
+  },
+  {
+    "Source": 2,
+    "Term": "Pressure",
+    "Definition": "the force exerted by the atmosphere"
+  },
+  {
+    "Source": 1,
+    "Term": "Prevailing wind",
+    "Definition": "The most common wind direction for a particular location."
+  },
+  {
+    "Source": 2,
+    "Term": "Rain gauge",
+    "Definition": "gauge consisting of an instrument to measure the quantity of precipitation"
+  },
+  {
+    "Source": 2,
+    "Term": "Rain shadow",
+    "Definition": "an area that has little precipitation because some barrier causes the winds to lose their moisture before reaching it"
+  },
+  {
+    "Source": 1,
+    "Term": "Relief rainfall",
+    "Definition": "Formed when air is forced to rise over relief features such as hills or mountains. Cooling and condensation occurs as the air rises."
+  },
+  {
+    "Source": 2,
+    "Term": "Satellite",
+    "Definition": "man-made equipment that orbits around the earth or the moon"
+  },
+  {
+    "Source": 2,
+    "Term": "Sea breeze",
+    "Definition": "a cooling breeze from the sea (during the daytime)"
+  },
+  {
+    "Source": 2,
+    "Term": "Sea level",
+    "Definition": "level of the ocean's surface"
+  },
+  {
+    "Source": 2,
+    "Term": "Season",
+    "Definition": "one of the natural periods into which the year is divided by the equinoxes and solstices or atmospheric conditions"
+  },
+  {
+    "Source": 1,
+    "Term": "Seasonality",
+    "Definition": "Periodic fluctuations in the climate related to seasons of the year e.g. wet winters, drier summers."
+  },
+  {
+    "Source": 2,
+    "Term": "Sleet",
+    "Definition": "precipitation consisting of a mixture of rain and snow"
+  },
+  {
+    "Source": 1,
+    "Term": "Smog",
+    "Definition": "A word currently used as a synonym for general air pollution. It was originally created by combining the words \"smoke\" and \"fog."
+  },
+  {
+    "Source": 2,
+    "Term": "Solar",
+    "Definition": "relating to the sun or utilizing the energies of the sun"
+  },
+  {
+    "Source": 2,
+    "Term": "Stratus",
+    "Definition": "a large dark low cloud"
+  },
+  {
+    "Source": 1,
+    "Term": "Synoptic chart",
+    "Definition": "A weather chart reflecting the state of the atmosphere over a large area at a given moment."
+  },
+  {
+    "Source": 2,
+    "Term": "Temperate",
+    "Definition": "mild or free from extremes"
+  },
+  {
+    "Source": 2,
+    "Term": "Temperature",
+    "Definition": "the degree of hotness or coldness of a body or environment"
+  },
+  {
+    "Source": 1,
+    "Term": "Temperature range",
+    "Definition": "Maximum minus the minimum temperature for a particular location."
+  },
+  {
+    "Source": 2,
+    "Term": "Thermometer",
+    "Definition": "measuring instrument for measuring temperature"
+  },
+  {
+    "Source": 2,
+    "Term": "Tilt",
+    "Definition": "property possessed by a line that departs from the vertical"
+  },
+  {
+    "Source": 2,
+    "Term": "Tornado",
+    "Definition": "a violently destructive windstorm occurring over land"
+  },
+  {
+    "Source": 2,
+    "Term": "Tropical",
+    "Definition": "relating to part of the Earth's surface with hot climate"
+  },
+  {
+    "Source": 2,
+    "Term": "Tropical rain forest",
+    "Definition": "a rain forest in a tropical area"
+  },
+  {
+    "Source": 2,
+    "Term": "Vegetation",
+    "Definition": "all the plant life in a particular region or period"
+  },
+  {
+    "Source": 2,
+    "Term": "Warm front",
+    "Definition": "the front of an advancing mass of warmer air"
+  },
+  {
+    "Source": 1,
+    "Term": "Warm sector",
+    "Definition": "The zone of warm air within a depression."
+  },
+  {
+    "Source": 1,
+    "Term": "Water vapour",
+    "Definition": "Water substance in vapour (gaseous) form; one of the most important of all constituents of the atmosphere."
+  },
+  {
+    "Source": 1,
+    "Term": "Weather",
+    "Definition": "The state of the atmosphere, mainly with respect to its effects upon life and human activities. As distinguished from climate, weather consists of the short-term (minutes to about 15 days) variations of the atmosphere state."
+  },
+  {
+    "Source": 2,
+    "Term": "Weather map",
+    "Definition": "(meteorology) a map showing the principal meteorological elements at a given time and over an extended region"
+  },
+  {
+    "Source": 1,
+    "Term": "Wind",
+    "Definition": "movement of air caused by changes in temperature and air pressure. Winds are always identified by the compass direction from which they blow."
+  },
+  {
+    "Source": 2,
+    "Term": "Wind vane",
+    "Definition": "mechanical device attached to an elevated structure"
+  }
+]
