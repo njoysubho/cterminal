@@ -20,3 +20,37 @@
 .App-link {
   color: #09d3ac;
 }
+
+.MuiTabs-flexContainer {
+  height: 95px;
+}
+
+.MuiButtonBase-root {
+  font-size: 1.25rem;
+}
+
+.nav_logo-wrap {
+  height: auto;
+}
+
+.home-content-stats_item {
+  display: flex;
+  position: relative;
+}
+
+.home-content-stats_item img {
+  width: 50%;
+}
+
+.home-content-stats_item div {
+  width: 50%;
+  position: relative;
+  top: 45px;
+  text-align: center;
+}
+
+.footer-wrap {
+  height: 300px;
+  width: 100%;
+  background-color: #232323;
+}

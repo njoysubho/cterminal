@@ -102,7 +102,7 @@ export default function NewsAggregator() {
 
   <AppBar position="static">
   <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-    <img className="nav_logo" src={logoBlack} />
+    <img className="nav_logo"src={logoBlack} />
     <Tab value={0} label="Home"  {...a11yProps(0)} to='/' component={Link}/>
     <Tab value={1} label="News" value="/news" to='/news' component={Link}/>
     <Tab value={2} label="Stats" {...a11yProps(2)} value="/stats" to='/stats' component={Link} />
@@ -120,7 +120,20 @@ export default function NewsAggregator() {
       <Container maxWidth="bg" style={{display: 'flex'}}>
       <div className="home-content_wrap" style={{backgroundColor: 'black', heigt: '50vh', position: 'relative', top:'5%', width: '70%'}}>
             <div className="card home-content-stats_wrap">
+              <div className="home-content-stats_item">
               <img src={logo} />
+              <div className="">
+                <h3 className="card-title"> Headline about the statstic</h3>
+                <p className="card-subtitle">Subline text for statistics</p>
+              </div>    
+              </div>
+              <div className="home-content-stats_item">
+                <img src={logo} />
+                <div className="">
+                  <h3 className="card-title"> Headline about the statstic</h3>
+                  <p className="card-subtitle">Subline text for statistics</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -143,6 +156,10 @@ export default function NewsAggregator() {
         </div>
         </Typography>
       </Container>
+    </React.Fragment>
+    <React.Fragment>
+      <div className="footer-wrap">
+      </div>
     </React.Fragment>
       </div>
     );
