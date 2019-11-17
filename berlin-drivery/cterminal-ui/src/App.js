@@ -102,6 +102,7 @@ export default function NewsAggregator() {
 
   <AppBar position="static">
   <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+    <img className="nav_logo" src={logoBlack} />
     <Tab value={0} label="Home"  {...a11yProps(0)} to='/' component={Link}/>
     <Tab value={1} label="News" value="/news" to='/news' component={Link}/>
     <Tab value={2} label="Stats" {...a11yProps(2)} value="/stats" to='/stats' component={Link} />
