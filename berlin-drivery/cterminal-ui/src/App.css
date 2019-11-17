@@ -53,4 +53,9 @@
   height: 300px;
   width: 100%;
   background-color: #232323;
+  text-align: center; 
+}
+
+.footer-wrap h3 {
+  text-transform: uppercase;
 }

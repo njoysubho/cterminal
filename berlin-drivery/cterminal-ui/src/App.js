@@ -23,6 +23,10 @@ import Tab from '@material-ui/core/Tab';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom'
 import { VictoryLine } from "victory";
+import { Slide } from 'material-auto-rotating-carousel';
+import { ArrowBack} from '@material-ui/icons/ArrowBack'
+//images
+
 const useStyles = makeStyles(theme => ({
   root: {
     justifyContent: 'center',
@@ -125,7 +129,7 @@ export default function NewsAggregator() {
               <div className="">
                 <h3 className="card-title"> Headline about the statstic</h3>
                 <p className="card-subtitle">Subline text for statistics</p>
-              </div>    
+              </div>
               </div>
               <div className="home-content-stats_item">
                 <img src={logo} />
@@ -159,6 +163,12 @@ export default function NewsAggregator() {
     </React.Fragment>
     <React.Fragment>
       <div className="footer-wrap">
+        <div className="footer-support">
+          <h3>Supported By</h3>
+            <div className="footer-support-images">
+
+            </div>
+        </div>
       </div>
     </React.Fragment>
       </div>
