@@ -9,12 +9,13 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 const routing = (
     <Router>
       <div>
-        <Route path="/" component={App}/>
+        <Route exact path="/" component={App}/>
         <Route path="/news" component={News} />
       </div>
     </Router>
   )
-ReactDOM.render(<App/>, document.getElementById('root'));
+  
+ReactDOM.render(routing, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

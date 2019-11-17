@@ -13,7 +13,8 @@
     "bootstrap": "*",
     "@material-ui/core": "*",
     "react-router": "*",
-    "react-router-dom": "*"
+    "react-router-dom": "*",
+    "victory": "*"
   },
   "scripts": {
     "start": "PORT=2000 react-scripts start",

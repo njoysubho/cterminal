@@ -21,8 +21,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import PropTypes from 'prop-types';
-import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
-
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+import {Link} from 'react-router-dom'
 
 function handleClick(event) {
     event.preventDefault();
@@ -89,7 +89,14 @@ export default function NewsAggregatorPage() {
   
       return (
         <div>
-    
+    <AppBar position="static">
+  <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+    <Tab value={0} label="Home"  {...a11yProps(0)} to='/' component={Link}/>
+    <Tab value={1} label="News" value="/news" to='/news' component={Link}/>
+    <Tab value={2} label="Stats" {...a11yProps(2)} value="/stats" to='/stats' component={Link} />
+    <Tab value={3} label="Wiki" {...a11yProps(3)} value="/wiki" to='/wiki' component={Link} />
+  </Tabs>
+</AppBar>
   
           <div class="card">
           <div class="card-body">

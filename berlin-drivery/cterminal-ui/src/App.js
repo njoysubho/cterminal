@@ -21,7 +21,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom'
-
+import { VictoryLine } from "victory";
 const useStyles = makeStyles(theme => ({
   root: {
     justifyContent: 'center',
@@ -100,13 +100,17 @@ export default function NewsAggregator() {
       <div>
   <AppBar position="static">
   <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-    <Tab label="Home"  {...a11yProps(0)} />
-    <Tab label="News" value="/news" />
-    <Tab label="Stats" {...a11yProps(2)} />
-    <Tab label="Wiki" {...a11yProps(3)} />
+    <Tab value={0} label="Home"  {...a11yProps(0)} to='/' component={Link}/>
+    <Tab value={1} label="News" value="/news" to='/news' component={Link}/>
+    <Tab value={2} label="Stats" {...a11yProps(2)} value="/stats" to='/stats' component={Link} />
+    <Tab value={3} label="Wiki" {...a11yProps(3)} value="/wiki" to='/wiki' component={Link} />
   </Tabs>
 </AppBar>
-
+<React.Fragment>
+      <CssBaseline />
+      <Container maxWidth="bg">
+      </Container>
+ </React.Fragment>
  <React.Fragment>
       <CssBaseline />
       <Container maxWidth="bg">
