@@ -85,9 +85,9 @@ export default function NewsAggregator() {
   const [data, setData] = useState([]);
   /*state = {
     news: [],
-   
+
   }*/
- 
+
    // const classes= useStyles();
    useEffect(() => {
     fetch('http://localhost:3000/climate-feed')
@@ -111,24 +111,25 @@ export default function NewsAggregator() {
       <CssBaseline />
       <Container maxWidth="bg">
         <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh'
-        ,marginLeft:"70%",marginRight:"-2%",marginTop:"0%"}}> 
+        ,marginLeft:"70%",marginRight:"-2%",marginTop:"0%"}}>
         <div class="card">
         <div class="card-body">
           {data.map((item) =>(
 
-            <div className="card" >
+            <Typography component="div" style={{ backgroundColor: '#cfe8fc', width:' 30%', position: 'relative'}}>
+            <div className="card">
             <div className="card-body">
               <h5 className="card-title">{item.title}</h5>
               <h6 className="card-subtitle mb-2"><ReactTinyLink url={item.link} />
               </h6>
             </div>
           </div>
-          ))} 
+          ))}
         </div>
       </div>
       </Typography>
       </Container>
-    </React.Fragment> 
+    </React.Fragment>
       </div>
     );
   /*componentDidMount() {
@@ -145,3 +146,4 @@ export default function NewsAggregator() {
 
 
 //export default App;
+console.log(logo);
