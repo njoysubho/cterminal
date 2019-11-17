@@ -11,7 +11,9 @@
     "styled-components": "*",
     "react-bootstrap": "*",
     "bootstrap": "*",
-    "@material-ui/core": "*"
+    "@material-ui/core": "*",
+    "react-router": "*",
+    "react-router-dom": "*"
   },
   "scripts": {
     "start": "PORT=2000 react-scripts start",
