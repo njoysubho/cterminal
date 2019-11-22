@@ -71,7 +71,7 @@ const yearly = function (req, res) {
  *
  * @param {*} req Takes a country iso3 as req.params.country and a month name as req.query.month (month should be part of monthNames)
  * @param {*} res send an array of celsius data for a certain period.
- * If req.query.month is passed, response object will have a 'data' key with an array of temperature.
+ * If req.query.month is passed, response object will have a 'data' key with an array of temperature for this particular month.
  * else, esponse object will have a 'year' with an int and a 'data' key with the temperature for this year.
  */
 
