@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import News from './News';
+import Stats from './Stats';
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
@@ -11,6 +12,7 @@ const routing = (
       <div>
         <Route exact path="/" component={App}/>
         <Route path="/news" component={News} />
+        <Route path="/stats" component={Stats} />
       </div>
     </Router>
   )

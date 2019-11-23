@@ -1,30 +1,24 @@
 import React,{ Component, useEffect,useState,setData } from 'react';
-import ReactDom from 'react-dom';
-import Microlink from '@microlink/react'
 import { ReactTinyLink} from 'react-tiny-link'
-import { Carousel,CarouselItem } from 'react-bootstrap';
 import logo from './logo.svg';
 import logoBlack from './images/logo_black_icon.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom'
-import { VictoryLine } from "victory";
-import { Slide } from 'material-auto-rotating-carousel';
-import { ArrowBack} from '@material-ui/icons/ArrowBack'
+import NavMenu from './Menu';
+import Stats from './Stats';
+import News from './News';
+import Card from '@material-ui/core/Card'
+import CardContent from '@material-ui/core/CardContent'
 //images
 
 const useStyles = makeStyles(theme => ({
@@ -102,75 +96,9 @@ export default function NewsAggregator() {
   },[]);
 
     return (
-      <div>
-
-  <AppBar position="static">
-  <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-    <img className="nav_logo"src={logoBlack} />
-    <Tab value={0} label="Home"  {...a11yProps(0)} to='/' component={Link}/>
-    <Tab value={1} label="News" value="/news" to='/news' component={Link}/>
-    <Tab value={2} label="Stats" {...a11yProps(2)} value="/stats" to='/stats' component={Link} />
-    <Tab value={3} label="Wiki" {...a11yProps(3)} value="/wiki" to='/wiki' component={Link} />
-  </Tabs>
-</AppBar>
-<React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="bg">
-      </Container>
- </React.Fragment>
-
- <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="bg" style={{display: 'flex'}}>
-      <div className="home-content_wrap" style={{backgroundColor: 'black', heigt: '50vh', position: 'relative', top:'5%', width: '70%'}}>
-            <div className="card home-content-stats_wrap">
-              <div className="home-content-stats_item">
-                <img src={logo} />
-
-              </div>
-            </div>
-          </div>
-
-          <Typography component="div" style={{ backgroundColor: '#cfe8fc', width:' 30%', height: '100vh', overflow:'auto', position: 'relative'}}>
-          <div className="card">
-          <div className="card-body">
-            {data.map((item) =>(
-              <div className="card" >
-                <div className="card-body">
-                  <h5 className="card-title">
-                    {item.title}
-                  </h5>
-                  <h6 className="card-subtitle mb-2">
-                    <Microlink url={item.link} />
-                  </h6>
-                </div>
-            </div>
-            ))}
-          </div>
-        </div>
-        </Typography>
-      </Container>
-    </React.Fragment>
-    <React.Fragment>
-      <div className="footer-wrap">
-        <div className="footer-support">
-          <h3>Supported By</h3>
-            <div className="footer-support-images">
-
-            </div>
-        </div>
-      </div>
-    </React.Fragment>
-      </div>
+        <Stats />
     );
-  /*componentDidMount() {
-    fetch('http://localhost:3000/climate-feed')
-   .then(res => res.json())
-    .then((data) => {
-      this.setState({ news: data })
-    })
-    .catch(console.log)
-  }*/
+ 
 
 }
 

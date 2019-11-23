@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "*",
     "@microlink/react": "*",
+    "@material-ui/icons": "*",
     "bootstrap": "*",
     "material-auto-rotating-carousel": "^3.0.2",
     "react": "^16.12.0",

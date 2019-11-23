@@ -105,7 +105,7 @@ export default function NewsAggregatorPage() {
               <div className="card" >
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
-                <h6 className="card-subtitle mb-2"><ReactTinyLink url={item.link} />
+                <h6 className="card-subtitle mb-2">{item.link}
                 </h6>
               </div>
             </div>
