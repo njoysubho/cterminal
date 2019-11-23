@@ -1,10 +1,13 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
+const morgan = require('morgan')
 app.use(cors())
 const port = 3000
 const scrapping = require('./scrapping.js')
-
+const historical = require('./temperature.js').historical
+// const future = require('./temperature.js').future
+app.use(morgan('dev'))
 // may be pluggable
 const feed_urls = [
   'https://news.google.com/rss/search?q=climate&hl=en-US&gl=US&ceid=US:en'
@@ -12,6 +15,8 @@ const feed_urls = [
 app.get('/', (req, res) => res.send('Hello World!'))
 app.get('/climate-feed', (req, res) => res.send(get_feed()))
 app.get('/scrapping/:type', scrapping)
+app.get('/historical/temp/:country', historical)
+// app.get('/future/temp/:country', future)
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
