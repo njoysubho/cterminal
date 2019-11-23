@@ -62,7 +62,7 @@ const yearly = function (req, res) {
     .then(r => {
       res.status(200).send({
         data: r,
-        message: `Historical monthly data for ${req.params.country} in ${req.query.month} in range ${dates.historical[0].start}-${dates.historical[dates.historical.length - 1].end}`
+        message: `Historical yearly data for ${req.params.country} in ${req.query.month} in range ${dates.historical[0].start}-${dates.historical[dates.historical.length - 1].end}`
       })
     })
 }
